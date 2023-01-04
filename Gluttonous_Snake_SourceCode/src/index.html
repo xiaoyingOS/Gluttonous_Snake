@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇(Gluttonous Snake)</title>
+</head>
+<body>
+    <p style="font-size: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;游戏玩法：按 W A S D 或者方向键 上下左右(↑ ↓ ← →) 控制蛇的方向。其它任意键都是暂停键。寄了刷新网页继续玩【13级游戏必会结束，没有人能通过13级 --> Level 13 game must end.No one can pass level 13】</p>
+    <p style="font-size: 20px;">&nbsp;&nbsp;&nbsp;Game play: Press W, A ,S, D or arrow keys (↑ ↓ ← →) to control the direction of the snake. Any other key is a pause key<p>
+    <!-- 创建游戏主容器 -->
+    <div id="main">
+        <!-- 设置游戏面板 -->
+        <div id="panel">
+            <!-- 设置蛇 -->
+            <div id="snake">
+                <!-- snake内部div就表示蛇的个部分(一段一段的蛇身) -->
+                <div></div>
+            </div>
+
+            <!-- 设置食物 -->
+        <div id="food">
+            <!-- 4个div来设置食物样式 -->
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        </div>
+        
+        <!-- 设置游戏计分面板 -->
+        <div id="score-panel">
+            <div style="background-color: black;">
+                SCORE: <span id="score">0</span>
+            </div>
+            <div>LEVEL TOTAL: 14 LEVEL</div>
+            <div style="background-color: black;">
+                LEVEL: <span id="level">0</span>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
